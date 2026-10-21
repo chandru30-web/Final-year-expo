@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Year Project Expo 2026</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>🚀 Final Year Project Expo 2026</h1>
+        <h3>Innovate, Create and Inspire!</h3>
+        <hr>
+
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#register">Register</a>
+
+        <hr>
+    </center>
+
+    <h2 id="home">Welcome to Project Expo!</h2>
+
+    <center>
+        <h3>Discover Innovative Ideas and Creative Projects</h3>
+        <p>Showcase your talent and present your final year projects.</p>
+        <a href="#register">Register Now</a>
+    </center>
+
+    <hr>
+
+    <h2 id="about">About the Event</h2>
+
+    <p>
+        The Final Year Project Expo 2026 is an event where students
+        showcase their innovative projects, demonstrate their skills
+        and share their creative ideas.
+    </p>
+
+    <hr>
+
+    <h2 id="projects">Project Categories</h2>
+
+    <h3>1. Software Projects</h3>
+    <p>Websites, mobile applications and software development.</p>
+
+    <h3>2. Artificial Intelligence</h3>
+    <p>AI applications and smart technology solutions.</p>
+
+    <h3>3. Hardware Projects</h3>
+    <p>Robotics, electronic devices and IoT projects.</p>
+
+    <h3>4. Environmental Projects</h3>
+    <p>Innovative ideas for protecting the environment.</p>
+
+    <hr>
+
+    <h2>Event Details</h2>
+
+    <p><b>Date:</b> Enter Event Date</p>
+    <p><b>Venue:</b> College Auditorium</p>
+    <p><b>Time:</b> 10:00 AM onwards</p>
+
+    <hr>
+
+    <h2 id="register">Student Registration</h2>
+
+    <form>
+        <label>Student Name:</label>
+        <input type="text" name="studentname" required>
+        <br><br>
+
+        <label>Email Address:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Department:</label>
+        <select name="department">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <label>Project Title:</label>
+        <input type="text" name="projecttitle" required>
+        <br><br>
+
+        <label>Project Category:</label>
+        <select name="category">
+            <option>Software</option>
+            <option>Artificial Intelligence</option>
+            <option>Hardware</option>
+            <option>Environmental</option>
+        </select>
+        <br><br>
+
+        <label>Project Description:</label>
+        <br>
+        <textarea name="description" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+
+    <hr>
+
+    <center>
+        <h3>Thank You!</h3>
+        <p>Final Year Project Expo 2026</p>
+        <p>Innovate Today, Inspire Tomorrow!</p>
+        <p>&copy; 2026 Project Expo</p>
+    </center>
+
+</body>
+</html>
